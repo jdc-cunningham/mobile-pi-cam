@@ -177,6 +177,38 @@ Yeah... I'm making garbage for sure
 
 I need to test the client initiated comms right away so doing that now
 
+1:58 PM
+
+I did have an idea, the mjpeg_server... that is hosting a webapp
+
+with access point... could control it that way, no mobile app
+
+gonna try access point real quick... well issue is will lose ssh connection to it I think
+
+2:08 PM
+
+posted a question
+
+This is a sad time... the point where I ask myself, why am I doing this?
+
+Another rejection letter for a job app, sad
+
+Ugh... so many steps to setup the AP... it's supposed to be just a drop in module to allow remote control...
+
+Guess I'll stick with bluetooth then
+
+2:18 PM
+
+I don't get it, the MAC addr is there but bleak doesn't see it
+
+2:23 PM
+
+damn feel like I was kicked in the throat, brick wall faced
+
+bluetooth is not as easy as I thought
+
+
+
 ---
 
 02/26/2024
