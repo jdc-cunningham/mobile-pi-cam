@@ -1,3 +1,25 @@
+02/27/2024
+
+10:21 AM
+
+Starts off the day with misery business damn
+
+I'm developing against the ML Hat Cam guts mostly for the wired so I can keep it going for a while
+
+But also no systemd service using the camera that I gotta turn on/off on the cameras
+
+<img src="./devlog-images/ml-hat-cam-guts.JPG"/>
+
+It has a 5mm lens on it
+
+Dang it I gotta remember the ip address... arp-scan but only on mac not near me dang it
+
+<video src="./devlog-images/focus.mp4" width="500"></video>
+
+It's crazy a gif is larger than a video
+
+---
+
 02/26/2024
 
 6:28 PM
@@ -38,3 +60,5 @@ It's so crips omg... the photo doesn't do it justice
 Yeah... I don't like how the camera is on the right side currently, my hand goes over it on accident
 
 So it will be moved to the left when I get the V3 camera module... which will be sometime next week, sucks gotta wait
+
+The gradient unfortunately is visible on this display so I'll just use a solid color
