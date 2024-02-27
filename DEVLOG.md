@@ -14,7 +14,7 @@ It has a 5mm lens on it
 
 Dang it I gotta remember the ip address... arp-scan but only on mac not near me dang it
 
-<video src="./devlog-images/focus.mp4" width="500"></video>
+<img src="./devlog-images/focus.gif"/>
 
 It's crazy a gif is larger than a video
 
