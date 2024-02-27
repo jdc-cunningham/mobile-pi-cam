@@ -137,6 +137,46 @@ https://stackoverflow.com/questions/63782892/using-asyncio-to-wait-for-results-f
 
 quick break
 
+12:46 PM
+
+Back on
+
+In order for this project to succeed I need:
+
+- auto connect rpi
+- android app that connects to bluetooth properly (last time had permission issues)
+- bidirectional messaging
+
+After that, the rest is just CRUD/design
+
+Right now I'm trying to figure out how to have the peristent/async bluetoothctl connection
+
+1:05 PM
+
+Somehow the ssh window's text isn't coming out, except if it's like `ctrl + c` interesting
+
+1:07 PM
+
+As I write this code I think of a scene from Silicon Valley where this guy in the crowd is like "you are a dangerous man!"
+
+1:15 PM
+
+damn this is hard
+
+1:22 PM
+
+look who it is
+
+<img src="./devlog-images/cat.JPG"/>
+
+Plops himself right down
+
+1:50 PM
+
+Yeah... I'm making garbage for sure
+
+I need to test the client initiated comms right away so doing that now
+
 ---
 
 02/26/2024
