@@ -121,7 +121,21 @@ My main concern is transferring images... I imagine it will have to use base64 a
 
 not impossible though
 
+12:06 PM
 
+let's do it lol
+
+https://stackoverflow.com/questions/9322796/keep-a-subprocess-alive-and-keep-giving-it-commands-python
+
+a sin
+
+12:12 PM
+
+https://stackoverflow.com/questions/63782892/using-asyncio-to-wait-for-results-from-subprocess
+
+12:14 PM
+
+quick break
 
 ---
 
