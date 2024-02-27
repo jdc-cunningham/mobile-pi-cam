@@ -26,3 +26,15 @@ This is so cool
 I don't like the blue anymore... I made it with this blue gradient and it makes it look bad... idk I'm thinking orange on orange could be cool
 
 <img src="./devlog-images/drawing.JPG"/>
+
+7:10 PM
+
+Oh damn, orange is legit!
+
+It's so crips omg... the photo doesn't do it justice
+
+<img src="./devlog-images/orange.JPG"/>
+
+Yeah... I don't like how the camera is on the right side currently, my hand goes over it on accident
+
+So it will be moved to the left when I get the V3 camera module... which will be sometime next week, sucks gotta wait
