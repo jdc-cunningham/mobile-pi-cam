@@ -223,7 +223,17 @@ might try on mac real quick
 
 wait... I could try the rn app right away and mess with bluetooth there
 
+3:14 PM
 
+Ugh... what a PITA this cross platform dev, so slow
+
+Can't complain, I'm a dummy don't know Java
+
+REEEEEEE
+
+<img src="./devlog-images/rn-tears.JPG"/>
+
+I'm failing failing failing ahhhhhh
 
 ---
 
