@@ -207,6 +207,22 @@ damn feel like I was kicked in the throat, brick wall faced
 
 bluetooth is not as easy as I thought
 
+I have successfully connected phone to rpi and desktop to rpi but there's no messaging yet
+
+oh I gotta say quit to change agent
+
+dang cat is in the way blocking the screen
+
+<img src="./devlog-images/cat2.JPG"/>
+
+2:39 PM
+
+I don't get how the win 10 desktop is connected to the pi yet running a bleak client can't find the bluetooth address...
+
+might try on mac real quick
+
+wait... I could try the rn app right away and mess with bluetooth there
+
 
 
 ---
