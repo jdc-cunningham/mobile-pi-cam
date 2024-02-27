@@ -18,6 +18,111 @@ Dang it I gotta remember the ip address... arp-scan but only on mac not near me 
 
 It's crazy a gif is larger than a video
 
+10:42 AM
+
+Alright moving on, first thing is I need to get a bluetooth connection established
+
+10:45 AM
+
+Hmm... doing some initial reading, the client is okay it's the bluetooth server I'm looking for
+
+11:09 AM
+
+Distracted
+
+11:15 AM
+
+I'm swimmin... I don't have an idea of how to bridge these two right now...
+
+I do... connecting to the Pi is straightforward, issue is how does an app get data from the bluetooth connection
+
+looking at this and using bluetoothctl
+
+https://forums.raspberrypi.com/viewtopic.php?t=160295
+
+I was able to see the rpi on my windows machine
+
+<img src="./devlog-images/found.png"/>
+
+hmm it asks for passkey
+
+<img src="./devlog-images/rpi-side.png"/>
+
+So far this is not an automatic process so not great yet
+
+I think for development... I might have to make a basic desktop widget to send data... I've made one before with tkinter
+
+Just time...
+
+This looks interesting
+
+https://github.com/IanHarvey/bluepy
+
+11:29 AM
+
+I don't have a lot of time to do discovery, I just need to make it work
+
+This looks good
+
+https://github.com/EnableTech/raspberry-bluetooth-demo
+
+I want to send entire frames eg. photos... I will have to see how fast I can do it, so you can see the passthrough from the camera on your phone
+
+I keep using that word, live feed I should say this is not AR
+
+- sudo apt-get install bluetooth bluez
+- sudo pip3 install pybluez
+
+nooooo it's failing
+
+well... I could also do an stdout api wrapper (around bluetoothctl) which is rancid
+
+11:38 AM
+
+Alright I came across this term GATT, so want a GATT server (RPi) and android is GATT client or desktop client (bleak works)
+
+I was looking at this, basic code I can read through/integrate
+
+https://github.com/Douglas6/cputemp
+
+need dbus
+
+pip3 install python-dbus
+
+11:45 AM
+
+Didn't work... I'm failing, you are failing doctor
+
+Ahh lite doesn't have dbus
+
+sudo apt install python3-dbus
+
+https://stackoverflow.com/questions/71867578/no-module-named-dbus-i-already-have-that-raspbian
+
+hmm...
+
+tried gatt and advertisement bluez... don't see it on windows
+
+I'm tempted to switch the wifi ap option... then it's like a regular http server
+
+Ehh... bluetooth is cleaner though of an interface... idk they're about the same button clicking steps wise
+
+This looks interesting too
+
+https://github.com/getsenic/gatt-python
+
+Ugh... so far the raw bluetoothctl approach is the most tangible for me
+
+11:59 AM
+
+Alright... this is a dumb decision but I don't have time to understand the intricacies of which bluetooth low level thing to use right now... so I'll just go with what works for me.
+
+My main concern is transferring images... I imagine it will have to use base64 and that'll be a gigantic string to have in a console
+
+not impossible though
+
+
+
 ---
 
 02/26/2024
