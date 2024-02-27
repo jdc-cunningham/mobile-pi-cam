@@ -301,6 +301,7 @@ const App = () => {
       PermissionsAndroid.requestMultiple([
         PermissionsAndroid.PERMISSIONS.BLUETOOTH_SCAN,
         PermissionsAndroid.PERMISSIONS.BLUETOOTH_CONNECT,
+        PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
       ]).then(result => {
         if (result) {
           console.debug(
@@ -313,16 +314,18 @@ const App = () => {
         }
       });
     } else if (Platform.OS === 'android' && Platform.Version >= 23) {
-      PermissionsAndroid.check(
-        PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-      ).then(checkResult => {
-        if (checkResult) {
+      PermissionsAndroid.requestMultiple([
+        PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
+      ]).then(checkResult => {
+        console.log('run');
+        if (checkResult && 1 === 2) {
           console.debug(
             '[handleAndroidPermissions] runtime permission Android <12 already OK',
           );
         } else {
           PermissionsAndroid.request(
-            PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+            // PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+            PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
           ).then(requestResult => {
             if (requestResult) {
               console.debug(

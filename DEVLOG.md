@@ -235,6 +235,88 @@ REEEEEEE
 
 I'm failing failing failing ahhhhhh
 
+3:35 PM
+
+just sadness... I have failed... FAILED!!!
+
+only positive is provided I get my tax return tomorrow I will be able to order a camera module v3
+
+something to look forward to when my next 4 days of warehouse work ends
+
+Then I'll be able to take the camera outside/try it for real since the footage should be worth it
+
+Oh man... it's gonna be raining those days lmao
+
+3:49 PM
+
+Okay so android emulator doesn't do bluetooth damn
+
+3:56 PM
+
+Alright... had to find a usb-c cable, will run app on my phone
+
+of course my windows 10 search bar crashed, great
+
+4:20 PM
+
+ugh... had to set an environment variable
+
+kill vs code, start over... now my antivirus is blocking android great... even though it's already in the allow list
+
+4:26 PM
+
+ugh... running the demo can't find any bluetooth devices hmm
+
+wait... is it because it's not ble
+
+4:39 PM
+
+I had to say "advertise on" huh
+
+4:42 PM
+
+I connected to the RPi with the nrf connect app but not the ble-manager app
+
+5:02 PM
+
+Sadness... smothers us
+
+tried to package APK won't work without metro
+
+making apk from this tutorial
+
+https://medium.com/geekculture/react-native-generate-apk-debug-and-release-apk-4e9981a2ea51
+
+5:10 PM
+
+ugh... yeah even with an apk it doesn't work but nRF does damn it
+
+5:25 PM
+
+oh damn... nrf connect says the advertising on pi 4 is legacy not ble
+
+5:29 PM
+
+help me Margot, I'm close
+
+I feel it...
+
+5:49 PM
+
+Fine... I will try hci0
+
+looking at this
+
+https://pimylifeup.com/raspberry-pi-ibeacon/
+
+5:53 PM
+
+damn... alright I think I will try the AP approach
+
+This makes it easier where there is no mobile app, it's just a website
+
+Unfortunately there are a lot of steps to config the AP part
+
 ---
 
 02/26/2024

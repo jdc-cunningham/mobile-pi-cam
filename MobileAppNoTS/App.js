@@ -301,6 +301,7 @@ const App = () => {
       PermissionsAndroid.requestMultiple([
         PermissionsAndroid.PERMISSIONS.BLUETOOTH_SCAN,
         PermissionsAndroid.PERMISSIONS.BLUETOOTH_CONNECT,
+        PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
       ]).then(result => {
         if (result) {
           console.debug(
